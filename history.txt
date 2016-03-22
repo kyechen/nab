@@ -1,0 +1,67 @@
+    1  yum groupinstall "KDE"
+    2  yum update -y
+    3  whereis repo
+    4  ip addr
+    5  wget google.com
+    6  systemctl enable network.service
+    7  systemctl start network.services
+    8  vi /etc/sysconfig/network-scripts/ifcfg-enp0s3 
+    9  nmtui
+   10  yum groupinstall "
+   11  KDE";
+   12  reboot
+   13  yum upgrade -y
+   14  startx
+   15  yum groupinstall "desktop"
+   16  yum groupinstall "gnome-desktop"
+   17  yum groupinstall "Server with GUI"
+   18  ln -sf /lib/systemd/system/runlevel5.target /etc/systemd/system/default.target
+   19  reboot
+   20  ls
+   21  ls .
+   22  find / -name VBox*
+   23  cd /run/media/root/
+   24  ls
+   25  cd VBOXADDITIONS_5.0.14_105127/
+   26  ls
+   27  ./VBoxLinuxAdditions.run 
+   28  lsblk
+   29  reboot
+   30  useradd jimmy
+   31  passwd jimmy
+   32  usermod -aG wheel jimmy
+   33  su - jimmy
+   34  clear
+   35  yum install git
+   36  yum groupinstall -y "developmental tools"
+   37  yum groupinstall -y "Developmental Tools"
+   38  yum groupinstall "Development Tools"
+   39  yum install -y boybu
+   40  yum install -y byobu
+   41  cd /home/francis/.ssh/
+   42  ls
+   43  vi config
+   44  cd
+   45  clear
+   46  yum install -f byobu
+   47  yum install -y byobu
+   48  rpm -qa byobu
+   49  cd Downloads/
+   50  ls
+   51  rpm -ivh google-chrome-stable_current_x86_64.rpm 
+   52  yum update 
+   53  vi /etc/yum.repos.d/google-chrome.repo
+   54  yum info google-chrome-stable
+   55  yum install google-chrome-stable
+   56   google-chrome &
+   57  clear
+   58  yum clean all
+   59  clear
+   60  exit
+   61  ssh-keygen -t rsa -b 2048 
+   62  su - francis 
+   63  exit
+   64  yum install sftp
+   65  history
+   66  touch history.txt
+   67  history > history.txt

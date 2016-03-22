@@ -1,0 +1,52 @@
+﻿488  git add df2pg.sh cp_df2pg.sh 
+  489  git commit -a 
+  490  git push 
+  491  git checkout development 
+  492  git merge production development 
+  493  git push 
+  494  git checkout staging 
+  495  git merge production staging 
+  496  git push 
+  497  git checkout production 
+  498  clear 
+  499  ls 
+  500  cd 
+  501  sudo -i 
+  502  htop 
+  503  sudo apt-get install htop -y 
+  504  htop 
+  505  clear 
+  506  ssh datafax 
+  507  ssh datafax@ai-datafaxprd3 
+  508  ssh ai-datafaxprd3 
+  509  sftp datafax@ai-datafaxprd3 
+  510  ls 
+  511  mv m2df* Documents/ 
+  512  cd Documents/ 
+  513  ls 
+  514  exit 
+  515  history 
+  516  clear 
+  517  ls 
+  518  cd NIAID-Datafax/ 
+  519  ls 
+  520  git status 
+  521  mkdir Datafax-Msource 
+  522  mv ../Documents/m2df* ../NIAID-Datafax/Datafax-Msource/ 
+  523  ls 
+  524  cd Datafax-Msource/ 
+  525  ls 
+  526  git add . 
+  527  git commit -a 
+  528  git push 
+  529  git checkout development 
+  530  cd ../ 
+  531  git merge production development 
+  532  git push 
+  533  git checkout staging 
+  534  git merge production staging 
+  535  git push 
+  536  git checkout production 
+  537  git pull 
+  538  git log 
+  539  history 
